@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+/* Carousel Outermost div */
+.projects > div:first-of-type{
+    display: inline-block;
+    border: 1px solid black;
+    width: 80%;
+}
+    /* Page display */
+    .projects div div p{
+        margin: 50px;
+        /* color: black !important; */
+        text-shadow: none !important;
+    }
+/* Navigation dots */
+.projects ul li{
+    /* background: black !important; */
+    outline: none !important;
+}
+    /* Slider */
+    .projects ul:first-child li{
+        background: none !important;
+    }

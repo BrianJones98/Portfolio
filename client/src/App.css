@@ -1,0 +1,54 @@
+/* 
+  palette: https://colorhunt.co/palette/167893
+*/
+
+.App {
+  text-align: center;
+  display: grid;
+}
+  .App header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 75px;
+    background-color: #1b262c;
+  }
+    .App header div *{
+      margin: 0px;
+    }
+      .App header div h1{
+        font-size: 60px;
+      }
+      .App header div h3{
+        color: grey;
+      }
+    .App header nav{
+      display: inline-block;
+    }
+      .App header nav *{
+        display: block;
+        text-decoration: none;
+        color: #3282b8;
+        font-weight: 100;
+        font-size: 25px;
+        margin: 10px 0px;
+      }
+        .App header nav *:hover{
+          color: #0f4c75;
+        }
+  .App footer{
+    padding: 20px;
+  }
+    .App footer div{
+      display: flex;
+      justify-content: space-evenly;
+    }
+      .App footer div *{
+        font-size: 20px;
+        text-decoration: none;
+        color: #3282b8;
+        font-weight: 100;
+      }
+        .App footer div *:hover{
+          color: #0f4c75;
+        }
