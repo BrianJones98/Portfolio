@@ -1,0 +1,25 @@
+.App {
+	text-align: center;
+}
+	.App header {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		padding: 5px;
+		background-color: #0F4257;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+		.App header ul{
+			list-style: none;
+		}
+			.App header ul li{
+				margin: 0px 5px;
+				display: inline;
+				font-size: 18px;
+			}
+
+#img-placeholder{
+	height: 30px;
+	width: 30px;
+	background-color: red;
+}
