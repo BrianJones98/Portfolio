@@ -2,7 +2,7 @@
 import './App.css';
 
 //View Imports
-import Home from './Views/Home';
+import Main from './Views/Main';
 
 function App() {
 	return (
@@ -14,11 +14,18 @@ function App() {
 						<li>Home</li>
 						<li>Projects</li>
 						<li>About</li>
-						<li>Contact</li>
 					</ul>
 				</nav>
 			</header>
-			<Home />
+			<Main />
+			<footer>
+				<a href="mailto:BrianJones.JST@gmail.com">BrianJones.JST@gmail.com</a>
+				<div>
+					<div id="sm-icon-placeholder" />
+					<div id="sm-icon-placeholder" />
+				</div>
+				<p>&copy; 2022 Brian Jones</p>
+			</footer>
 		</div>
 	);
 }

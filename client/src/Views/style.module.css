@@ -1,18 +1,5 @@
 .viewWrapper{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #155D7A;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 2px 2px black;
-}
-    .viewWrapper h1{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-.imgPlaceholder{
-    height: 250px;
-    width: 350px;
-    margin: 25px 0px;
-    background-color: red;
-    display: inline-block;
+    display: block;
+    background-color: #18323a;
+    padding: 5px;
 }
