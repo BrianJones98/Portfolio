@@ -1,5 +1,39 @@
 .viewWrapper{
     display: block;
     background-color: #18323a;
-    padding: 5px;
+    text-align: center;
 }
+    .viewWrapper header {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        background-color: #244b56;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .viewWrapper header ul{
+            list-style: none;
+        }
+            .viewWrapper header ul li{
+                margin: 0px 8px;
+                display: inline;
+                font-size: 18px;
+            }
+    .viewWrapper footer{
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        padding: 50px 10px 10px;
+        background-color: #6fb1c3;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+        .viewWrapper footer a{
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .viewWrapper footer p{
+            font-size: 12px;
+            color: #0c1a1d;
+        }

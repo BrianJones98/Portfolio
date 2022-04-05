@@ -10,6 +10,11 @@
     .componentWrapper ul{
         list-style-type: none;
     }
+    .componentWrapper a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
 
 .imgPlaceholder{
     height: 250px;
