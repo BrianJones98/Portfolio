@@ -2,14 +2,14 @@
 import React from "react";
 
 //Style Imports
-import style from '../style.module.css';
+import style from './style.module.css';
 
-const Schedualize = _props => {
+const Resume = _props => {
     return (
         <div className={style.viewWrapper}>
-            <h1>Schedualize</h1>
+            <h1>Resume</h1>
         </div>
     );
 }
 
-export default Schedualize;
+export default Resume;

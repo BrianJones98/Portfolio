@@ -7,19 +7,19 @@ import style from './style.module.css';
 
 const Projects = _props => {
     return (
-        <div className={style.componentWrapper}>
+        <div className={style.viewWrapper}>
             <Link className={style.projWrapper} to="/project/speedy-square">
-                <div className={style.projImgPlaceholder} />
+                <div id="proj-img-placeholder" />
                 <p>Speedy Square</p>
                 <p>2020</p>
             </Link>
             <Link className={style.projWrapper} to="/project/schedualize">
-                <div className={style.projImgPlaceholder} />
-                <p>Schedualize</p>
+                <div id="proj-img-placeholder" />
+                <p>Schedulize</p>
                 <p>2021</p>
             </Link>
             <Link className={style.projWrapper} to="/project/request-parser">
-                <div className={style.projImgPlaceholder} />
+                <div id="proj-img-placeholder" />
                 <p>Request Parser</p>
                 <p>2022</p>
             </Link>

@@ -4,8 +4,7 @@
 }
 
 body {
-	margin: 0;
-	font-family: sans-serif;
-	background-color: #0c1a1d;
-	color: #FFFFFF;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #151414;
+	color: #BDBFC7;
 }
